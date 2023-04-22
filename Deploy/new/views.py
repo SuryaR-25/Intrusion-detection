@@ -6,7 +6,7 @@ from . import models
 import numpy as np
 import joblib
 
-model = joblib.load('D:/Files/Final year Project/CODE/Deploy/new/RF.pkl')
+model = joblib.load('C:/Users/surya/Documents/GitHub/Intrusion-detection/Deploy/newRF.pkl')
 
 # Create your views here.
 def home_view(request):
